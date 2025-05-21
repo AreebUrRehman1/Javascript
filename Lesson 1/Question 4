@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Javascript</title>
+</head>
+<body>
+
+<button id="button"></button>
+
+<script>
+  document.getElementById("button").innerHTML = "PUSH ME PLEASE!!"
+  document.getElementById("button").style.fontSize = "35px";
+  document.getElementById("button").style.color = "lightpink";
+  document.getElementById("button").style.backgroundColor = "black";
+</script>
+</body>
+</html>
